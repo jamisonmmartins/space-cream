@@ -29,8 +29,6 @@ Implementação de marcação semântica para estruturar o conteúdo de forma cl
 
 Estilização do site, com ênfase na utilização do Display Grid para criar layouts flexíveis e responsivos. Media Queries foram empregadas para garantir a adaptação do design a diferentes tamanhos de tela, seguindo o conceito Mobile First para uma experiência consistente em dispositivos móveis e desktop. 
 
+
 ## Contribuição
 Sinta-se à vontade para contribuir com melhorias ou correções. Crie uma branch, faça as alterações e abra um pull request.   |
-
-## Licença
-Este projeto está licenciado sob a Licença [Nome da Licença]. Consulte o arquivo LICENSE.md para obter detalhes.
