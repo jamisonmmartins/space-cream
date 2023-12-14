@@ -31,4 +31,4 @@ Estilização do site, com ênfase na utilização do Display Grid para criar la
 
 
 ## Contribuição
-Sinta-se à vontade para contribuir com melhorias ou correções. Crie uma branch, faça as alterações e abra um pull request.   |
+Sinta-se à vontade para contribuir com melhorias ou correções. Crie uma branch, faça as alterações e abra um pull request.
