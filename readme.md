@@ -25,8 +25,6 @@ O layout deste projeto foi baseado no design fornecido pelo Figma. Você pode vi
 
 Implementação de marcação semântica para estruturar o conteúdo de forma clara e significativa. Utilização de tags apropriadas, como &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;, entre outras.
 
-<hr style="height: 0.5px">
-
 ### ![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)   
 
 Estilização do site, com ênfase na utilização do Display Grid para criar layouts flexíveis e responsivos. Media Queries foram empregadas para garantir a adaptação do design a diferentes tamanhos de tela, seguindo o conceito Mobile First para uma experiência consistente em dispositivos móveis e desktop. 
