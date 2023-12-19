@@ -22,7 +22,7 @@
 }
 
 .page {
-    min-width: 320px;
+    min-width: 280px;
     margin: auto;
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 header img {
-    max-width:14rem;
+    max-width: 14rem;
 }
 
 header h1 {
@@ -72,7 +72,7 @@ header p {
 
     color: var(--texting-color);
 
-    max-width: 30rem;
+    width: clamp(25rem, 90vw, 38rem);
 }
 
 main {
@@ -85,10 +85,10 @@ main {
 
 section {
     row-gap:3.2rem;
-    grid-template-columns: 30rem;
+    grid-template-columns: clamp(25rem, 90vw, 40rem);
     grid-template-areas: "a" "b" "c" "d";
     justify-content: center;
-    padding: 3rem 0.5rem 6rem;
+    padding: 3rem 0.5rem 3rem;
 }
 
 .card, .card:nth-child(even) {
@@ -99,8 +99,8 @@ section {
 
 .card {
     border-radius: 2rem;
-    min-width: 30rem;
-    min-height: 25rem;
+    width: clamp(25rem, 90vw, 40rem);
+    height: clamp(22rem, 80vw, 32rem);
     
     position: relative;
 
@@ -110,7 +110,7 @@ section {
 }
 
 .card:nth-child(even){
-    min-height: 45rem;
+    min-height: clamp(35rem, 125vw, 50rem);
 }
 
 .card:nth-child(1) {
@@ -178,33 +178,35 @@ footer {
     display: none;
 }
 
+
 @media (min-width:680px) {
     
     .page {
-        width: 1024px;
+        max-width: 1024px;
         display: grid;
         grid-template-rows: 1fr 5rem;
-        grid-template-columns: 1024px;
+        grid-template-columns: 100vw;
         justify-content: center;
     }
     
     header p {
-        max-width: 70rem;
+        width: 80%;
         padding: 0 2rem;
     }
     
     main section {
-        grid-template-rows: repeat(3, 25rem) ;
-        grid-template-areas: "a b" "c b" "c d" ;
+        grid-template-columns: repeat(2, 35vw) ;
+        grid-template-areas: "a b" "d c" ;
         gap: 1rem;
         justify-content: center;
     }
 
-    .card, .card:nth-child(even) {
-        min-height: 25rem;
+    .card:nth-child(even) {
+        min-height: 50rem;
     }
 }
 
+/*
 @media (min-width:1025px) {
     .page {
         grid-template-columns: 300px 725px;
@@ -256,6 +258,7 @@ footer {
         color: var(--heading2-color);
     }
 }
+*/
 
 @keyframes topdown{
     0% {
@@ -267,6 +270,7 @@ footer {
         transform: translateY(0);
     }
 }
+
 
 @keyframes downtop {
     0% {
