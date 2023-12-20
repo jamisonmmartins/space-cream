@@ -184,7 +184,7 @@ footer {
     .page {
         max-width: 1024px;
         display: grid;
-        grid-template-rows: 1fr 5rem;
+        grid-template-rows: repeat(2, max-content);
         grid-template-columns: 100vw;
         justify-content: center;
     }
@@ -195,10 +195,14 @@ footer {
     }
     
     main section {
-        grid-template-columns: repeat(2, 35vw) ;
-        grid-template-areas: "a b" "d c" ;
+        grid-template-columns: repeat(2, clamp(25rem, 40vw, 35rem)) ;
+        grid-template-areas: "a b" "d b" "d c" ;
         gap: 1rem;
-        justify-content: center;
+        justify-items: center;
+    }
+
+    .card {
+        width: clamp(25rem, 90%, 40rem);
     }
 
     .card:nth-child(even) {
