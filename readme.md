@@ -1,6 +1,8 @@
-[![Projeto Space Cream](./img/capa-projeto.png)](https://jamisonmmartins.github.io/space-cream)
+# <a href="https://jamisonmmartins.github.io/space-cream" target="_blank">Space Cream </a>
 
-# Space Cream
+<a href="https://jamisonmmartins.github.io/space-cream" target="_blank">
+    <img src="./img/capa-projeto.png">
+</a>
 
 Este projeto consiste na criação de um site responsivo utilizando HTML5 e CSS3. O layout foi fornecido pelo Figma, garantindo uma base visual consistente. O principal foco é a implementação de uma estrutura semântica em HTML, proporcionando uma experiência de usuário acessível e amigável aos motores de busca.descrição
 
