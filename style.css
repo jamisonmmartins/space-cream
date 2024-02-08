@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     --heading-font-family: 'Staatliches';
-    --texting-font-family: ' '; 
+    --texting-font-family: 'Palanquin'; 
 
     font-size: 62.5%;
     --heading1-font-size: 4rem; /*clamp(4rem, 5vw, 5rem);*/
