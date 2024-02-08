@@ -7,9 +7,9 @@
     --texting-font-family: ' '; 
 
     font-size: 62.5%;
-    --heading1-font-size: clamp(4rem, 5vw, 5rem);
-    --heading2-font-size: clamp(2rem, 3vw, 3rem);   
-    --texting-font-size: clamp(1.6rem, 3vw, 2.2rem);
+    --heading1-font-size: 4rem; /*clamp(4rem, 5vw, 5rem);*/
+    --heading2-font-size: 2rem; /* clamp(2rem, 3vw, 3rem); */   
+    --texting-font-size: 1.6rem; /* clamp(1.6rem, 3vw, 2.2rem); */
 
     --body-bg-color: #EFF1FF;
     --header-bg-color: #8E9AAF;
@@ -86,10 +86,13 @@ main {
 
 section {
     gap: min(20px, 4vw);    
-    grid-template-columns: clamp(25rem, 90vw, 40rem);
+    grid-template-columns: max(20rem, 70vw);
+    /* grid-template-columns: clamp(25rem, 90vw, 40rem); */
     grid-template-areas: "a" "b" "c" "d";
     justify-content: center;
     padding: 3rem 0.5rem 3rem;
+
+    /*background-color:pink; */
 }
 
 .card, .card:nth-child(even) {
@@ -100,8 +103,8 @@ section {
 
 .card {
     border-radius: 2rem;
-    width: clamp(25rem, 90vw, 40rem);
-    height: clamp(22rem, 80vw, 32rem);
+    width: clamp(20rem, 70vw, 40rem);
+    height: clamp(16rem, 60vw, 32rem);
     
     position: relative;
 
@@ -111,7 +114,7 @@ section {
 }
 
 .card:nth-child(even){
-    min-height: clamp(35rem, 125vw, 50rem);
+    min-height: clamp(24rem, 85vw, 50rem);
 }
 
 .card:nth-child(1) {
@@ -150,7 +153,6 @@ section {
     grid-area: f;
 }
 
-
 .card h2 {
     font-family: var(--heading-font-family);
     font-weight: 400;
@@ -174,10 +176,6 @@ section {
     animation-name: topdown;
     animation-duration: 800ms;
 }
-
-/* footer {
-    display: none;
-} */
 
 footer {
     display: flex;
@@ -226,7 +224,7 @@ footer a {
 
     .card {
         width: clamp(20rem, 100%, 40rem);
-        max-height: calc();
+        /* width: clamp(20rem, 40vw, 40rem); */
     }
 
     .card:nth-child(even) {
@@ -266,6 +264,10 @@ footer a {
         padding: 0;
     }
 
+    .card {
+        height: calc(60vw/3);
+    }
+
     .card:nth-child(5), .card:last-child {
         display: block;
     }
@@ -273,10 +275,7 @@ footer a {
     footer {
         grid-area: footer;
     }
-
-    footer p {
-        padding-left: 4rem;
-    }
+}
 
 @keyframes topdown{
     0% {
