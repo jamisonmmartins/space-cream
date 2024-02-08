@@ -1,4 +1,4 @@
-![Projeto Space Cream](./img/projeto-space-cream.png)
+![Projeto Space Cream](./img/capa-projeto.png)
 
 # Space Cream
 
