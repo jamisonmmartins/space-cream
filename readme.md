@@ -1,10 +1,11 @@
+<img src="./img/capa-projeto.png">
+
 # <a href="https://jamisonmmartins.github.io/space-cream" target="_blank">Space Cream </a>
 
-<a href="https://jamisonmmartins.github.io/space-cream" target="_blank">
-    <img src="./img/capa-projeto.png">
-</a>
-
 Este projeto consiste na criação de um site responsivo utilizando HTML5 e CSS3. O layout foi fornecido pelo Figma, garantindo uma base visual consistente. O principal foco é a implementação de uma estrutura semântica em HTML, proporcionando uma experiência de usuário acessível e amigável aos motores de busca.descrição
+
+## Projeto
+[Deploy](https://jamisonmmartins.github.io/space-cream)  &nbsp; | &nbsp; [Repositório](https://github.com/jamisonmmartins/space-cream)
 
 ## Pré-requisitos
 Certifique-se de ter os seguintes requisitos instalados antes de prosseguir:
@@ -18,8 +19,8 @@ Não é necessário instalação para este projeto.
 ## Layout
 O layout deste projeto foi baseado no design fornecido pelo Figma. Você pode visualizar os layouts clicando nos links abaixo.
 
-[Figma - Layout Desktop](https://www.figma.com/file/Ouzsq7i4tXdAAldhpmFBm6/Stage-03---Grid-com-anima%C3%A7%C3%B5es-(Copy)?type=design&node-id=0%3A1&mode=dev)
- |  [Figma - Layout Mobile](https://www.figma.com/file/0lrsFsmXi1Od4hd3P9Faag/Stage-03---Mobile-First-(Copy)?type=design&mode=dev)
+[Figma - Layout Desktop](https://www.figma.com/file/Ouzsq7i4tXdAAldhpmFBm6/Stage-03---Grid-com-anima%C3%A7%C3%B5es-(Copy)?type=design&node-id=0%3A1&mode=dev) &nbsp; 
+ | &nbsp;  [Figma - Layout Mobile](https://www.figma.com/file/0lrsFsmXi1Od4hd3P9Faag/Stage-03---Mobile-First-(Copy)?type=design&mode=dev)
 
 ## Tecnologogias Utilizadas
 
