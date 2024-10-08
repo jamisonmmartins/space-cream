@@ -2,7 +2,7 @@
 
 # <a href="https://jamisonmmartins.github.io/space-cream" target="_blank">Space Cream </a>
 
-Este projeto consiste na criação de um site responsivo utilizando HTML5 e CSS3. O layout foi fornecido pelo Figma, garantindo uma base visual consistente. O principal foco é a implementação de uma estrutura semântica em HTML, proporcionando uma experiência de usuário acessível e amigável aos motores de busca.descrição
+Este projeto consiste na criação de um site responsivo utilizando HTML5 e CSS3. O layout foi fornecido pelo Figma, garantindo uma base visual consistente. O principal foco é a implementação de uma estrutura semântica em HTML, proporcionando uma experiência de usuário acessível e amigável aos motores de busca.
 
 ## Projeto
 [Deploy](https://jamisonmmartins.github.io/space-cream)  &nbsp; | &nbsp; [Repositório](https://github.com/jamisonmmartins/space-cream)
